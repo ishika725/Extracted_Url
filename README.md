@@ -20,3 +20,6 @@ This script extracts URLs containing the path "arcgis/rest/services" from Google
 - Ensure you have a stable internet connection.
 - The script includes a delay (`time.sleep(2)`) to avoid being blocked by Google.
 - Scraping Google search results is against Google's Terms of Service. Consider using the Google Search API for production use.
+
+
+## Created By Ishika Kapoor
