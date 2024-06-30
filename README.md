@@ -1,6 +1,6 @@
 # URL Extractor
 
-This script extracts URLs containing the path "arcgis/rest/services" from Google search results and stores them in a CSV file.
+This script extracts unique URLs containing the path "arcgis/rest/services" from Google search results and stores them in a CSV file.
 
 ## Setup Instructions
 
