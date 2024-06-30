@@ -27,7 +27,7 @@ if __name__ == "__main__":
     num_results = 1000
     urls = extract_urls(query, num_results)
 
-
     df = pd.DataFrame(urls, columns=["URL"])
+    df = df.drop_duplicates()
     df.to_csv("extracted_urls.csv", index=False)
-    print(f"Extracted {len(urls)} URLs and saved to extracted_urls.csv")
+    print(f"Extracted {df.shape[0]} unique URLs and saved to extracted_urls.csv")
